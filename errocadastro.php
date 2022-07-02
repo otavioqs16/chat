@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-$con = mysqli_connect("localhost", "root", "#Golfinho16", "chat") or die("Falha ao conectar");
+$con = mysqli_connect("us-cdbr-east-06.cleardb.net", "b9efdba306fef1", "81fd6aa9", "heroku_c701a48d385f15b") or die("Falha ao conectar");
 	$usuario = $_SESSION['usuario'];
 	$senha = $_SESSION['senha'];
 
